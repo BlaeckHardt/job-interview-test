@@ -1,6 +1,12 @@
 La presente API tiene una estructura hexagonal si no me equivoco, a continuación se explica a grandes razgos como funciona la API:
 
+En la primera capa tenemos el archivo main.py que es el que se encarga de hacer que se ejecute la api, despues tenemos los requirements.txt que nos ayudaran a que nuestra api funcione pues tiene las librerias necesarias para que el proyecto funcione por ejemplo en la nube-.
 
+En la segunda capa o carpeta tenemos "app" en la que tenemos el init y el config, el config para la configuracion si es entorno de desarrollo o produccion y el init en el que tenemos el create app y nuestro blueprint
+
+En la tercera capa "api" tenemos el init que contiene nuestros endpoints, asi mismo tenemos las capas de controller y endpoints, esta vez no me dio tiempo de poner los dtos.
+
+En el controller tenemos el metodo post y en el endpoint tenemos nuestra funcion que nos ayuda a realizar el trabajo.
 
 # Como ejecutarlo:
 
